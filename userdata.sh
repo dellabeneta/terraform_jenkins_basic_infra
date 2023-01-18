@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 apt update && apt install openjdk-17-jdk -y
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
